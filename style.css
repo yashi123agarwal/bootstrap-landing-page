@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:quicksand;
+    font-weight: 500;
+    background-color:#fff;
+}
+.navbar-nav {
+    margin:0px 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar-nav .nav-item{
+    margin:10px 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    line-height: 1;
+}
+
+ .nav-item .nav-link .navbar-nav:hover{
+    color:darkgreen;
+}
+.d-flex .btn{
+    color:blue;
+    font-size: 13px;
+
+}
+
+.form-control::-webkit-input-placeholder {
+    color:grey;
+  }
+.d-flex{
+    margin:10px 20px;
+}
+.navbar-toggler {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 25px;
+    padding: 0px;
+}
+.navbar{
+    padding:0px 10px;
+    background-color: #fff;   
+}
+.card-header img{
+    width:400px;
+padding:10px
+}
+.card-header h1{
+    font-size:25px;
+    font-weight: 400;
+    padding:10px;
+    color:rgb(121, 127, 230)
+}
+.card-body h1{
+    font-size: 20px;
+    text-underline:10px solid black;!important
+}
+.card-body .card-discription{
+    margin:10px;
+    color:grey;
+    font-size: 15px;
+    padding-bottom:20px;!important
+}
+ .card-body .list-item {
+    color:brown;
+    font-size: 12px;
+    
+ }
+ .card-body .nav-link{
+    background-color:rgb(128, 203, 128);
+    font-size:18px;
+    color:black !important;
+    padding: 5px 6px !important;;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%); 
+    margin: 3px 232px 10px 0px;
+
+    
+    text-decoration: none;
+    transition: 0.7s;
+ }
+ 
+.card-footer span{
+    padding-left:10px;
+}
+.links a{
+padding-right:10px;
+
+}
+.accordion{
+    padding:50px;
+    padding-bottom: 80px;
+}
+.table {
+    padding:50px
+}
+.form .container{
+    padding-top:50px;
+    padding-bottom:1000px;
+}
+#lastname{
+    padding-left:50px
+}
